@@ -1,0 +1,155 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif JP', serif;
+}
+*
+{
+    box-sizing: border-box;
+}
+header, section, footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container{
+  width: 1140px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.menu-text{
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.menu-text a{
+  display: flex;
+  border: none;
+  padding: 12px 24px!important;
+  color: white;
+  text-decoration: none;
+}
+.dropbtn{
+  background-color: black;
+  padding: 12px 24px!important;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  max-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.text-menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+.text-menu a:hover {
+  background-color: red;
+}
+.image-div{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.image-div img{
+  width: 100%;
+}
+.the-band-text, .the-band-p1, .the-band-p2, .text-holder1, .tour-text-para{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 14px 0 14px;
+  
+}
+.the-band-text, .the-band-h, .tour-text-h2{
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.content-holder{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.textandimage{
+  width: 33.33%;
+  text-align: center;
+  padding: 50px 16px 60px 16px;
+}
+.months-box{
+  background-color: white;
+}
+.tour-section{
+  background: #000;
+}
+.tour-text-h2, .tour-text-para{
+  color: white;
+}
+.text-holder1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 43px;
+}
+.months-box{
+  width: 800px;
+}
+.para{
+  padding: 10px 10px 10px 10px;
+}
+.first-col{
+  width: 33.33%;
+}
+.first-row-text{
+  background-color: white;
+}
+.three-row-box{
+  width: 100%;
+}
+.three-row-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
